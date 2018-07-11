@@ -16,7 +16,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/leonelquinteros/gotext/plurals"
+	"github.com/admpub/gotext/plurals"
 )
 
 const (
@@ -40,7 +40,7 @@ Example:
 
 	import (
 		"fmt"
-		"github.com/leonelquinteros/gotext"
+		"github.com/admpub/gotext"
 	)
 
 	func main() {

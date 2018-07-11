@@ -1,9 +1,9 @@
-[![GitHub release](https://img.shields.io/github/release/leonelquinteros/gotext.svg)](https://github.com/leonelquinteros/gotext)
+[![GitHub release](https://img.shields.io/github/release/admpub/gotext.svg)](https://github.com/admpub/gotext)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/leonelquinteros/gotext?status.svg)](https://godoc.org/github.com/leonelquinteros/gotext)
-[![Build Status](https://travis-ci.org/leonelquinteros/gotext.svg?branch=master)](https://travis-ci.org/leonelquinteros/gotext)
-[![codecov](https://codecov.io/gh/leonelquinteros/gotext/branch/master/graph/badge.svg)](https://codecov.io/gh/leonelquinteros/gotext)
-[![Go Report Card](https://goreportcard.com/badge/github.com/leonelquinteros/gotext)](https://goreportcard.com/report/github.com/leonelquinteros/gotext)
+[![GoDoc](https://godoc.org/github.com/admpub/gotext?status.svg)](https://godoc.org/github.com/admpub/gotext)
+[![Build Status](https://travis-ci.org/admpub/gotext.svg?branch=master)](https://travis-ci.org/admpub/gotext)
+[![codecov](https://codecov.io/gh/admpub/gotext/branch/master/graph/badge.svg)](https://codecov.io/gh/admpub/gotext)
+[![Go Report Card](https://goreportcard.com/badge/github.com/admpub/gotext)](https://goreportcard.com/report/github.com/admpub/gotext)
 
 # Gotext
 
@@ -33,13 +33,13 @@
 
 # Documentation
 
-Refer to the Godoc package documentation at (https://godoc.org/github.com/leonelquinteros/gotext)
+Refer to the Godoc package documentation at (https://godoc.org/github.com/admpub/gotext)
 
 
 # Installation 
 
 ```
-go get github.com/leonelquinteros/gotext
+go get github.com/admpub/gotext
 ```
 
 - There are no requirements or dependencies to use this package. 
@@ -59,30 +59,30 @@ You can rely on this to use your preferred vendoring tool or to manually retriev
 To use last stable version (v1.3.1 at the moment of writing)
 
 ```
-dep ensure -add github.com/leonelquinteros/gotext@v1.3.1
+dep ensure -add github.com/admpub/gotext@v1.3.1
 ```
 
 Import as
 
 ```go
-import "github.com/leonelquinteros/gotext"
+import "github.com/admpub/gotext"
 ```
 
 
 #### Vendoring with [gopkg.in](http://labix.org/gopkg.in)
 
-[http://gopkg.in/leonelquinteros/gotext.v1](http://gopkg.in/leonelquinteros/gotext.v1)
+[http://gopkg.in/admpub/gotext.v1](http://gopkg.in/admpub/gotext.v1)
 
 To get the latest v1 package stable release, execute:
 
 ```
-go get gopkg.in/leonelquinteros/gotext.v1
+go get gopkg.in/admpub/gotext.v1
 ```
 
 Import as
 
 ```go
-import "gopkg.in/leonelquinteros/gotext.v1"
+import "gopkg.in/admpub/gotext.v1"
 ```
 
 Refer to it as gotext.
@@ -141,7 +141,7 @@ For quick/simple translations you can use the package level functions directly.
 ```go
 import (
     "fmt"
-    "github.com/leonelquinteros/gotext"
+    "github.com/admpub/gotext"
 )
 
 func main() {
@@ -165,7 +165,7 @@ Use the fmt.Printf syntax (from Go's "fmt" package) to specify how to print the 
 ```go
 import (
     "fmt"
-    "github.com/leonelquinteros/gotext"
+    "github.com/admpub/gotext"
 )
 
 func main() {
@@ -190,7 +190,7 @@ so you can handle each settings on their own.
 ```go
 import (
     "fmt"
-    "github.com/leonelquinteros/gotext"
+    "github.com/admpub/gotext"
 )
 
 func main() {
@@ -227,7 +227,7 @@ you can directly use the Po object to parse it and access the translations in th
 ```go
 import (
     "fmt"
-    "github.com/leonelquinteros/gotext"
+    "github.com/admpub/gotext"
 )
 
 func main() {
@@ -263,7 +263,7 @@ Plural formulas are parsed and evaluated using [Kinako](https://github.com/mattn
 ```go
 import (
     "fmt"
-    "github.com/leonelquinteros/gotext"
+    "github.com/admpub/gotext"
 )
 
 func main() {

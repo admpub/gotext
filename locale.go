@@ -20,7 +20,7 @@ Example:
 
     import (
 	    "fmt"
-	    "github.com/leonelquinteros/gotext"
+	    "github.com/admpub/gotext"
     )
 
     func main() {
